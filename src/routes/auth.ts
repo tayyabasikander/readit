@@ -75,14 +75,14 @@ const login = async(req: Request, res: Response) => {
         
     }
 }
-const me = (req:Request,res:Response) => {
-    try {
-        const token=
-    } catch (error) {
+// const me = (req:Request,res:Response) => {
+//     try {
+//         const token=
+//     } catch (error) {
         
-    }
+//     }
     
-}
+// }
 
 const router = Router()
 router.post('/register', register)
